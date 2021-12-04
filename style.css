@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 120px 100px 150px 300px 100px 100px 200px;
+    grid-template-columns: 500px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+     "header1 sidebar sidebar sidebar sidebar sidebar sidebar"                           
+     "header1 column1 column2 column3 column4 column5 column6"
+     "header2 column1 column2 column3 column4 column5 column6"
+     "header2 row1 row1 row2 row3 row4 row5"
+     "header2 nav1 footer1 footer1 footer1 footer1 footer1"
+     "header3 nav1 footer1 footer1 footer1 footer1 footer1"
+     "header3 nav2 footer2 footer2 footer2 footer2 footer2" ;  
+}
+.header1 {
+    grid-area: header1;
+    
+
+}
+.header2 {
+    grid-area: header2;
+    
+
+}
+.header3 {
+    grid-area: header3;
+    border: 1px solid black;
+    -webkit-box-shadow: 0px 0px 12px 3px #000000; 
+    box-shadow: 0px 0px 12px 3px #000000;
+}
+.sidebar {
+    grid-area: sidebar;
+    font-family: 'Satisfy', cursive;
+}
+.column1{
+    grid-area:column1; 
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+.column1:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+box-shadow: 0px 0px 15px 5px #000000;
+}
+.column1 img{
+    width: 150px;
+    height: 150px;
+}
+.column2{
+    grid-area:column2;
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+.column2:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 5px #000000;
+}
+.column2 img{
+    width: 150px;
+    height: 150px;
+}
+.column3{
+    grid-area:column3; 
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+.column3:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 5px #000000;
+}
+.column3 img{
+    width: 150px;
+    height: 150px;
+}
+.column4{
+    grid-area:column4; 
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+.column4:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 5px #000000;
+}
+.column4 img{
+    width: 150px;
+    height: 150px;
+}
+.column5{
+    grid-area:column5; 
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+.column5:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 5px #000000;
+}
+.column5 img{
+    width: 150px;
+    height: 150px;
+}
+.column6{
+    grid-area:column6; 
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+.column6:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 5px #000000;
+}
+.column6 img{
+    width: 150px;
+    height: 150px;
+}
+.row1 {
+    grid-area: row1;
+    margin-top: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+.row2 {
+    grid-area: row2;
+    margin-top: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+.row3 {
+    grid-area: row3;
+    margin-top: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+.row4 {
+    grid-area: row4;
+    margin-top: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+.row5 {
+    grid-area: row5;
+    margin-top: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+.row6 {
+    grid-area: row6;
+    margin-top: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+/* .nav1{
+    grid-area: nav1;
+    border: 1px solid black;
+    background-color: tomato;
+    margin-top: 50px;
+} */
+.nav2{
+    grid-area: nav2;
+}
+/* .footer1{
+    grid-area: footer1;
+    border: 1px solid black;
+    background-color: yellowgreen;
+    margin-top: 50px;
+} */
+.footer2{
+    grid-area: footer2;
+}
+.header1 img{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    /* margin-top: 20px; */
+    align-items: center;
+}
+.header1 p{
+    font-size: 25px;
+}
+.header2 img{
+    width: 200px;
+    height: 400px;
+}
+.header3 p{
+    font-size: 30px;
+}
+.header3 img{
+    width: 250px;
+    height: 180px;
+}
+.sidebar h3{
+    font-size: 70px;
+}
+.sale{
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+.name{
+    position: absolute;
+    font-size: 70px;
+    top: 420px;
+    left: 1200px;
+}
+.name h4{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+.foto img{
+    border-radius: 100%;
+    width: 70px;
+    height: 50px;
+}
+h5{
+    font-family: 'Oswald', sans-serif;
+}
+.knopka{
+    width: 130px;
+    height: 70px;
+    background-color: rgb(126, 164, 236);
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arbutus', cursive;
+    font-size: 20px;
+    transition: all 0.5s;
+    margin-top: 100px;
+}
+.knopka:hover{
+    background-color: rgb(59, 122, 238);
+    -webkit-box-shadow: 2px -2px 15px 2px #000000; 
+    box-shadow: 2px -2px 15px 2px #000000;
+}
+.footer2{
+    font-family: 'Alice', serif;
+}
+
